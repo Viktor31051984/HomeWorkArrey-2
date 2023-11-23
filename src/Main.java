@@ -20,6 +20,7 @@ public class Main {
     }
 
     public static void task1() {
+        System.out.println("Задание 1");
         int[] arr = generateRandomArray();
         int sum = 0;
         for (int element : arr) {
@@ -28,6 +29,7 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
     }
     public static void task2() {
+        System.out.println("Задание 2");
         int [] arr = generateRandomArray();
         int minMonth = 200_001;
         int maxMonth = 99_999;
@@ -43,6 +45,7 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + minMonth + " рублей. Максимальная сумма трат за день составила " + maxMonth + " рублей.");
     }
     public static void task3() {
+        System.out.println("Задание 3");
         int[] arr = generateRandomArray();
         int dayMonth = 30;
         double sum = 0;
@@ -52,10 +55,11 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила " + sum + " рубелй.");
     }
     public static void task4() {
+        System.out.println("Задание 4");
         char[] reversFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reversFullName.length - 1; i >= 0; i--) {
             System.out.print(reversFullName[i] + " ");
         }
     }
-    }
+}
 
